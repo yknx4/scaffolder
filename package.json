@@ -1,0 +1,20 @@
+{
+  "name": "pipila",
+  "version": "1.0.0",
+  "description": "bot acarreador multinivel",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "ZeroDragon para Magmalada",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "eslint": "^4.8.0",
+    "eslint-config-airbnb-base": "^12.0.1",
+    "eslint-config-prettier": "^2.6.0",
+    "eslint-plugin-import": "^2.7.0",
+    "lint-staged": "^4.2.3",
+    "prettier": "^1.7.3",
+    "prettier-eslint": "^8.2.0"
+  }
+}
