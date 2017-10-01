@@ -4,8 +4,9 @@
   "description": "bot acarreador multinivel",
   "main": "index.js",
   "scripts": {
-    "precommit":"lint-staged",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "precommit": "lint-staged",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "./node_modules/.bin/eslint src/."
   },
   "author": "ZeroDragon para Magmalada",
   "license": "UNLICENSED",
@@ -14,11 +15,18 @@
     "eslint-config-airbnb-base": "^12.0.1",
     "eslint-config-prettier": "^2.6.0",
     "eslint-plugin-import": "^2.7.0",
-    "lint-staged": "^4.2.3",
     "prettier": "^1.7.3",
     "prettier-eslint": "^8.2.0"
   },
   "lint-staged": {
-    "src/**/*.{js,json}": ["prettier --single-quote --write", "eslint", "git add"]
+    "src/**/*.{js,json}": [
+      "prettier --single-quote --write",
+      "eslint",
+      "git add"
+    ]
+  },
+  "devDependencies": {
+    "husky": "^0.14.3",
+    "lint-staged": "^4.2.3"
   }
 }
