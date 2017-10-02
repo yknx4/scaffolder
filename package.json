@@ -10,7 +10,10 @@
     "predev": "yarn install",
     "dev": "nodemon index.js | ./node_modules/.bin/bunyan -l debug -o short"
   },
-  "author": "ZeroDragon para Magmalada",
+  "author": {
+    "name": "ZeroDragon",
+    "email": "npm@zerothedragon.com"
+  },
   "licenses": [
     {
       "type": "Apache-2.0",
