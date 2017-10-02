@@ -1,6 +1,4 @@
-SCAFFOLDER
-
-#############
+# SCAFFOLDER
 
 This project kickstarts a project and sets:
   - jest
