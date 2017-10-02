@@ -1,13 +1,15 @@
-PIPILA BOT
+SCAFFOLDER
 
 #############
 
-Este bot sirve para llevar relaciones entre usuarios de telegram.
-
-## Features:
-
-  - Manejo de esquema piramidal entre usuarios
-  - Envio de eventos y populacion de los mismos
-  - Reporte y manejo de RSVP
-  - Chequeo de usuarios en evento por geolocalización
-
+This project kickstarts a project and sets:
+  - jest
+  - dotenv
+  - babel
+  - bunyan
+  - eslint
+  - pretty
+  - vscode conf
+  - editorconfig
+  - nodemon
+  - precommit hooks
