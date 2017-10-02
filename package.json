@@ -11,7 +11,12 @@
     "dev": "nodemon index.js | ./node_modules/.bin/bunyan -l debug -o short"
   },
   "author": "ZeroDragon para Magmalada",
-  "license": "UNLICENSED",
+  "licenses": [
+    {
+      "type": "Apache-2.0",
+      "url": "http://www.apache.org/licenses/LICENSE-2.0"
+    }
+  ],
   "dependencies": {
     "babel-jest": "^21.2.0",
     "babel-preset-env": "^1.6.0",
