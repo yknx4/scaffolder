@@ -33,8 +33,12 @@ There are many ways to start with this project:
 
 ### Using startup shell script
 Just type this in your terminal:
-`curl https://raw.githubusercontent.com/ZeroDragon/scaffolder/master/web-installer.sh | sh`
-You'll end up in scaffolder directory with all installed and ready to code
+
+```
+curl https://raw.githubusercontent.com/ZeroDragon/scaffolder/master/web-installer.sh | sh
+```
+
+You'll end up with an scaffolder directory with all installed and ready to code
 
 ### Git clone
 ```

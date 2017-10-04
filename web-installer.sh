@@ -4,3 +4,5 @@ mv scaffolder-latest scaffolder
 cd scaffolder
 git init
 yarn install
+rm web-installer.sh
+echo "All done, don't forget to update README.md, and your information in package.json, also check LICENCE.md"
