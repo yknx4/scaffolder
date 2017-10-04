@@ -11,3 +11,7 @@ This project kickstarts a project and sets:
   - editorconfig
   - nodemon
   - precommit hooks
+
+## INSTALATION
+
+coming soon
