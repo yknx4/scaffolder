@@ -37,7 +37,7 @@ There are many ways to start with this project:
 Just type this in your terminal:
 
 ```
-wget -O - https://raw.githubusercontent.com/yknx4/scaffolder/master/web-installer.sh | sh
+wget --no-cache -O - https://raw.githubusercontent.com/yknx4/scaffolder/master/web-installer.sh | sh
 ```
 
 You'll end up with an scaffolder directory with all installed and ready to code
