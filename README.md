@@ -44,7 +44,7 @@ You'll end up with an scaffolder directory with all installed and ready to code
 
 ### Git clone
 ```
-git clone git@github.com:ZeroDragon/scaffolder.git
+git clone git@github.com:yknx4/scaffolder.git
 cd scaffolder
 rm -rf .git
 git init
@@ -52,4 +52,4 @@ yarn install
 ```
 
 ### Download from latest
-I'll try to keep tag `latest` always up to date. You can just [download this zip](https://github.com/ZeroDragon/scaffolder/archive/latest.zip). Then just unzip and `git init` and `yarn install`
+I'll try to keep tag `latest` always up to date. You can just [download this zip](https://github.com/yknx4/scaffolder/archive/latest.zip). Then just unzip and `git init` and `yarn install`
