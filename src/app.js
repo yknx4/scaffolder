@@ -1,3 +1,3 @@
-logger.info('App Started');
+logger.info('App Started')
 
-export default true;
+export default true

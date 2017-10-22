@@ -24,12 +24,12 @@ const env = {
       }
     }
   }
-};
+}
 
 const config = {
-  setupFiles: ['./config/setupGlobalVars.js'],
+  setupFiles: ['./jest-setup.js'],
   setupTestFrameworkScriptFile: './node_modules/jasmine-expect/index.js',
   unmockedModulePathPatterns: ['jasmine-expect']
-};
+}
 
-module.exports = Object.assign({}, config, env[process.env.ENVIRONMENT]);
+module.exports = Object.assign({}, config, env[process.env.ENVIRONMENT])

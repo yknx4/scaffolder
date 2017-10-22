@@ -1,6 +1,6 @@
-import bunyan from 'bunyan';
+import bunyan from 'bunyan'
 
-function setupLogger() {
+function setupLogger () {
   global.logger = bunyan.createLogger({
     name: config.APP_NAME,
     src: config.ENVIRONMENT !== 'production',
@@ -10,12 +10,14 @@ function setupLogger() {
         stream: process.stdout
       }
     ]
-  });
+  })
 }
 if (global.logger == null) {
-  setupLogger();
-  global.logger.info('logger initialized');
+  console.log('Initializing Logger')
+  setupLogger()
+  global.logger.info('Logger Initialized')
   process.on('unhandledRejection', error => {
-    global.logger.error(error);
-  });
+    global.logger.warn('Unhandle Promise Rejection!')
+    global.logger.error(error)
+  })
 }
