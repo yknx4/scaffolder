@@ -5,8 +5,8 @@ This project kickstarts a project and sets:
   - dotenv
   - babel
   - bunyan
-  - eslint
-  - pretty
+  - standard
+  - prettier
   - vscode conf
   - editorconfig
   - nodemon
@@ -16,6 +16,8 @@ This project kickstarts a project and sets:
 
 just `cd` to your repository (created based on this one) and:
 
+- `yarn build` - to create a optimized babel-free version
+- `yarn dev` - to start your production optimized version
 - `yarn dev` - to start working
 - `yarn test` - to run tests
 - `yarn test src/path/to/your/file.test.js` to sun specific test
@@ -35,7 +37,7 @@ There are many ways to start with this project:
 Just type this in your terminal:
 
 ```
-curl https://raw.githubusercontent.com/ZeroDragon/scaffolder/master/web-installer.sh | sh
+wget -O - https://raw.githubusercontent.com/yknx4/scaffolder/master/web-installer.sh | sh
 ```
 
 You'll end up with an scaffolder directory with all installed and ready to code
